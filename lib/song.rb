@@ -11,7 +11,7 @@ class Song
     self.new(song_title)
     artist_name = filename.split(" - ")[0]
     artist_name=(artist_name)
-    artist.add_song(song_title)
+  #  artist.add_song(song_title)
   end
 
   def artist_name=(artist_name)
@@ -21,7 +21,5 @@ class Song
       self.artist.name = @name
     end
   end
-
-
 
 end
